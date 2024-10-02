@@ -16,7 +16,7 @@ body{
     top: 0;
     left: 0;
     width: 95%;
-    padding: 20px 10%;
+    padding: 20px 10px;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -297,7 +297,7 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 30px;
-    width: 650px;
+    width: 800px;
     height: 100%;
     background: transparent;
     /* border: solid 2px red; */
@@ -339,9 +339,6 @@ width: 100%;
 }
 /* laptop */
 @media (max-width:1400px){
-    .home-imghover{
-        width: 500px;
-    }
     .header{
         padding: 20px 10px;
         justify-content: space-between;
@@ -349,6 +346,9 @@ width: 100%;
     .home-content h1{
         font-size: 40px;
         
+    }
+    .home-imghover{
+        width: 500px;
     }
 
 }
