@@ -338,7 +338,7 @@ width: 100%;
     }
 }
 /* laptop */
-@media (max-width:1800px){
+@media (max-width:1400px){
     .home-imghover{
         width: 500px;
     }
