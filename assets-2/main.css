@@ -388,9 +388,9 @@ width: 100%;
         font-size: 20px;
         
     }
-/*     .home-sci{
-        margin-top: 60px;
-    } */
+    .home-content{
+        margin-bottom:80px;
+    }
     .home-imghover{
         display: none;
     }
