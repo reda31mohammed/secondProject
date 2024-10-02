@@ -297,7 +297,7 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 30px;
-    min-width: 600px;
+    width: 650px;
     height: 100%;
     background: transparent;
     /* border: solid 2px red; */
@@ -340,7 +340,7 @@ width: 100%;
 /* laptop */
 @media (max-width:1800px){
     .home-imghover{
-        width: 600px;
+        width: 500px;
     }
     .header{
         padding: 20px 10px;
