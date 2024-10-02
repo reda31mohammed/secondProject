@@ -297,9 +297,8 @@ width: 100%;
     position: absolute;
     top: 0;
     right: 30px;
-    width: 500px;
+    min-width: 600px;
     height: 100%;
-
     background: transparent;
     /* border: solid 2px red; */
     transition: 3s;
@@ -339,7 +338,10 @@ width: 100%;
     }
 }
 /* laptop */
-@media (max-width:1400px){
+@media (max-width:1800px){
+    .home-imghover{
+        width: 600px;
+    }
     .header{
         padding: 20px 10px;
         justify-content: space-between;
@@ -350,7 +352,7 @@ width: 100%;
     }
 
 }
-
+/*laptop  */
 /* phones */
 @media (max-width:700px){
     .navbar {
